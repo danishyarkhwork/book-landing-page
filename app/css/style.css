@@ -7,3 +7,23 @@
 @import "additional-styles/theme.css";
 
 @import "tailwindcss/utilities";
+
+@font-face {
+  font-family: "b-zar";
+  src: url("/fonts/b-zar/BahijZar-Bold.eot");
+  src:
+    local("Bahij Zar Bold"),
+    local("BahijZar-Bold"),
+    url("/fonts/b-zar/BahijZar-Bold.eot?#iefix") format("embedded-opentype"),
+    url("/fonts/b-zar/BahijZar-Bold.woff2") format("woff2"),
+    url("/fonts/b-zar/BahijZar-Bold.woff") format("woff"),
+    url("/fonts/b-zar/BahijZar-Bold.ttf") format("truetype"),
+    url("/fonts/b-zar/BahijZar-Bold.svg#BahijZar-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+.f-b-zar {
+  font-family: "b-zar";
+}
